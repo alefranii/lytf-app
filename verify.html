@@ -15,8 +15,20 @@
 </head>
 <body>
 	<header>
-		<div class="row">
-			<div class="titulo"> <a href="signup1.html"><i class="fa fa-arrow-left " aria-hidden="true"></i></a></i>Verify your number </div>
+		<div class="container">
+			<div class="row"> 
+				<div class="col-xs-2 col-sm-2">
+					<a href="signup1.html" class="fa fa-chevron-left fa x3" aria-hidden="true"></a>
+				</div>
+				<div class="col-xs-8 col-sm-8">
+					<h4>Verify your number </h4>
+				</div>	
+			</div>
+			<div class="row">
+				<div class="col-xs-12 col-sm-12 free-ride">
+					<a href="#">Join now for free rive credit</a>
+				</div>
+			</div>
 		</div>
 	</header>
 	<form id="contacto-form">
@@ -31,12 +43,13 @@
 					</span>
 					<div class="container-fluid">
 						<div class="row">
-							<input id="hint" type="submit" value="Resend code" class="boton-codigo" ><a href="#" id="codig"></a>
+							<input id="hint" type="submit" value="Resend code"><a href="#" id="codig"></a>
 							<p>problems the receiving the code?</p>
 						</div>
 					</div>
 
 					<span id="mensaje_error" class="hide"></span>
+
 					<!-- teclado numerico  -->
 					<div class="keyboard">
 						<div class="number">
@@ -52,6 +65,7 @@
 
 						</div>
 						<div class="number aling-right">
+							<span data-number=""><i></i></span>
 							<span data-number="0"><i>0</i></span>
 							<span><i class="delete"><img src="https://image.flaticon.com/icons/svg/61/61167.svg" width="30" height="30" alt="Left Arrow free icon" title="Left Arrow free icon"></i></span>
 
@@ -60,7 +74,7 @@
 
 					<!-- boton next -->
 					<div class="caja-next botones-boton">
-						<a href="signup3.html"><button class="boton-codigo next-codigo">Next</button></a>
+						<a href="signup3.html"><button  class=" boton-codigo next-codigo">Next</button></a>
 					</div>
 				</form>
 			</body>
